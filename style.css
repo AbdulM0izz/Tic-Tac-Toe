@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #ffff;
+    text-align: center;
+}
+
+body,
+.heading {
+    color: black;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vh;
+    width: 58vw;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    /* gap: 0.8rem; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+    height: 18vh;
+    width: 18vw;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgba(9, 9, 37, 0.788);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    color: white;
+    font-size: 6.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+#resetbtn {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#newgamebtn {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.hide {
+    display: none;
+}
+
+#msg {
+    color: green;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
